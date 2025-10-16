@@ -1,0 +1,14 @@
+/* Aquí redimensionamos el logo de lo que será nuestra "empresa" */
+.logo{
+    width: 150px;
+    height: 150px;
+}
+/*Ahora ponemos los botones en los que el usuario podrá dirigirse a otras paginas*/
+.boton-contacto{
+    color: white;
+    background-color: black;
+}
+.boton-about{
+    color: white;
+    background-color: black;
+}
