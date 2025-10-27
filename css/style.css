@@ -5,6 +5,13 @@ html, body {
   margin: 0;
   padding: 0;
   background-color:#f5f5f5;
+  /*Esto hace que ocupe siempre el 100%*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main{
+  flex: 1;
 }
 
 /* Aquí redimensionamos el logo de lo que será nuestra "empresa" */
@@ -91,3 +98,16 @@ html, body {
   background-color: #11abca;
 }
 
+/* Dentro del sobre nosotros, la tabla de sostenibilidad*/
+
+.table{
+  width: 100%;
+  border-collapse: collapse;
+}
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    background-color: rgb(7, 90, 79);
+    color: white;
+}

@@ -10,3 +10,7 @@ Añadimos tres categorias, moldeamos un codigo css para que todas las categoría
 y creamos los archivos que serán las subpaginas de nuestra pagina pricipal.
 Tuve problemas con colocar las categorias en columnas, solucion encontrada basada en chat gpt y w3schools.
 Imagenes de categorias sacadas de freepik.
+
+#Tercer dia (27 de Octubre)
+
+Añadidos contenidos en la pagina de sobre nosotros, y creados estilos de la tabla que está dentro, además añadí en el main y el body el display para poder poner el footer siempre en la parte baja de nuestra pagina.
