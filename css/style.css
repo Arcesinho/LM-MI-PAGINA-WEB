@@ -4,7 +4,8 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: gray;
+  background-color: rgb(194, 193, 193);
+  font-family: Vegur, 'PT Sans', Verdana, sans-serif;
   /*Esto hace que ocupe siempre el 100%*/
   min-height: 100vh;
   display: flex;
@@ -13,6 +14,13 @@ html, body {
 
 main{
   flex: 1;
+}
+
+.img_inicio {
+  background-image: url(/img/imagen\ inicio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Aquí redimensionamos el logo de lo que será nuestra "empresa" */
@@ -34,6 +42,7 @@ main{
 .logo img {
   height: 100px;
 }
+
 
 .botones-header ul {
   list-style: none;
@@ -81,11 +90,6 @@ main{
     object-fit: cover;/*Esto recorta la imagen sin deformarla*/
 }
 
-.categoria:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  transition: 0.3s;
-}
 
 .boton-descubrir {
   display: flex;
@@ -95,12 +99,8 @@ main{
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
-  transition: background-color 0.3s;
 }
 
-.boton-descubrir:hover {
-  background-color: #11abca;
-}
 
 /* Dentro del sobre nosotros, la tabla de sostenibilidad*/
 

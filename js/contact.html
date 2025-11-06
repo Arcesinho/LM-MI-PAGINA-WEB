@@ -2,7 +2,65 @@
 
 <html>
 
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/style.css" type="text/css">
+        <title>ShipZone</title>
+    </head>
+    <body>
 
+        <!--Creamos la cabecera de nuestra pagina con el logo, y paginas a las que puede ir-->
+        <header class="header">
+            <div class="logo">
+                <img  src="/img/logo.png">  
+            </div>
+
+            <nav class="botones-header">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li> 
+                    <li><a href="about.html">SOBRE NOSOTROS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        
+        <main>  
+            <section>
+
+                <h1>Contacta con nosotros a través de este formulario</h1>
+                <form method="post" action="/action_page.php">
+                    <fieldset>
+
+                        <p> Introduce aquí tu email:
+                            <input type="email" name="email" id="email" value="xxx@example.com" required>
+                            <label for="email"></label>
+                        </p>
+                        <p> Introduce aquí tu numero de telefono:
+                            <input type="text" name="telefono" id="telefono" value="22222222" required>
+                            <label for="telefono"></label>
+                        </p>
+                        
+                        <p> Describe brevemente el motivo de su consulta:
+                            <textarea id="comentario" rows="4" cols="50" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            <label for="comentario"></label>
+                        </p>
+
+                        <button type="submit">Enviar</button>
+                    
+                    </fieldset>
+
+                </form>    
+
+                
+            </section>
+  
+        </main>
+        
+        <footer>
+            <p>©Copyright 2020 ShipZone. Todos los derechos reservados.</p>
+        </footer>
+    </body>
 
 
 </html>

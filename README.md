@@ -17,3 +17,6 @@ Añadidos contenidos en la pagina de sobre nosotros, y creados estilos de la tab
 
 #Cuarto día (30 de Octubre)
 Añadimos solo en html una pequeña descripción de la compañía, con su slogan y un gancho y añadimos una sección que solo sea para el titulo de las categorías. Falta añadir el estilo de las mismas.
+
+#Quiento dia (6 de Noviembre)
+Añadimos imagenes para la pagina principal usando pixabay.com
