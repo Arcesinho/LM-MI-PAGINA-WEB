@@ -4,7 +4,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: rgb(194, 193, 193);
+  background-color: rgb(255, 255, 255);
   font-family: Vegur, 'PT Sans', Verdana, sans-serif;
   /*Esto hace que ocupe siempre el 100%*/
   min-height: 100vh;
@@ -15,6 +15,8 @@ html, body {
 main{
   flex: 1;
 }
+
+/*Imagen que utilizaremos como fondo de nuestra pagina principal*/
 
 .img_inicio {
   background-image: url(/img/imagen\ inicio.png);
@@ -28,6 +30,10 @@ main{
     width: 150px;
     height: 150px;
 }
+.logo img {
+  height: 150px;
+}
+
 /*Ahora ponemos los botones en los que el usuario podrá dirigirse a otras paginas*/
 
 .header {
@@ -39,9 +45,7 @@ main{
   flex-wrap: wrap; /* permite que se acomode mejor en pantallas pequeñas */
 }
 
-.logo img {
-  height: 150px;
-}
+
 
 
 .botones-header ul {
@@ -90,6 +94,7 @@ main{
     object-fit: cover;/*Esto recorta la imagen sin deformarla*/
 }
 
+/*Boton que te lleva a las subpaginas de las distintas categorias*/
 
 .boton-descubrir {
   display: flex;
@@ -118,27 +123,24 @@ table th, table td {
 
 .articulos_categorias{
   border: 1px solid black;
-  width: 1200px;
+  width: auto;
+  background-color: aliceblue;
 }
+
+/*Esto engloba los productor de las distintas categorias*/
 
 .slider-container {
   display: flex;
+  align-self: center;
+  max-width: 500px;
   overflow-x: scroll;
-}
-
-.slider-container img {
-
-  object-fit: cover;
-}
-.slider-container {
-  display: flex;
-  overflow-x: scroll;
+  background-color: aliceblue;
   scroll-snap-type: x mandatory;
 }
 
 .slider-container img {
-  object-fit: cover;
 
-  /* Vamos a añadir esto 👇 */
+  object-fit: cover;
   scroll-snap-align: center;
 }
+
