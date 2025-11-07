@@ -40,7 +40,7 @@ main{
 }
 
 .logo img {
-  height: 100px;
+  height: 150px;
 }
 
 
@@ -114,4 +114,31 @@ table th, table td {
     border: 1px solid #ddd;
     background-color: rgb(7, 90, 79);
     color: white;
+}
+
+.articulos_categorias{
+  border: 1px solid black;
+  width: 1200px;
+}
+
+.slider-container {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.slider-container img {
+
+  object-fit: cover;
+}
+.slider-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.slider-container img {
+  object-fit: cover;
+
+  /* Vamos a añadir esto 👇 */
+  scroll-snap-align: center;
 }
