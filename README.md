@@ -26,3 +26,6 @@ Añado información en las subpaginas de las categorías, añadiendo productor y
 
 #Octavo dia (8 de NOviembre)
 Acabamos la ultima categoría(jardinería) me dio problemas las imagenes de las caratulas de las categorias, pesaban demasiado y tuve que redimensionarlas usando una pagina web llamada https://www.iloveimg.com que tiene una funcion para redimensionarlas. Además quité el fondo de la mayoría de las fotos para un mejor resultado final y más proofesional. Usé la ayuda de la ia (chat gpt y gemini) para hacer otra pestaña mas html con la que declarar mi politica de privacidad también para un resultado mas coherenta a la realidad. Quité el boton que tenia inicialmente en el nav, que servia para volver al index desde cualquier parte y la puse directamente en el logo. Me ayudó un compañero y busqué también la información sobre como hacerlo. Falta comentar el codigo, dejarlo claro y limpio y testear que no quede ningún bug.
+
+#Noveno dia (10 de Noviembre)
+Listo, codigo comentado y limpio, en principio ningun bug detectado
